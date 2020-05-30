@@ -1,18 +1,40 @@
+/* Giving the body the specified background color */
 body{
-    background-color: lightgray;
-    }
-h1 {
+    background-color: #EDEDED; 
+}
+/* Giving our navbar a background color, adding font sizes */
+/*.navbar navbar-default{
+
+}
+
+.navbar-header{}
+
+.
+
+
+}
+.navbar{
+    max-height: 50px; 
+	background-color: #cacccb; 
+    font-size: 15px; 
+}
+
+.navigation .navbar-brand {
     color: white;
     font-weight: bold;
-    font-family: verdana;
-    font-size: 200%;
-    background-color: white;
-    margin-top: 0px;
-    margin-bottom: 25px;
-    }
-a:link, a:visited {
-        color: white;
-        text-align: center;
-        text-decoration: none;
-        }    
-    
+    font-size: 25px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #38ab87;
+    margin-left: 50px;
+}
+.dropdown-item{
+    color: #30615c; 
+}
+.dropdown-menu .dropdown-item:hover, .dropdown-menu .dropdown-item:active{
+    background-color:#adc7c4; 
+}
+
+.nav-link:hover{
+    background-color:#adc7c4;
+}
+*/
