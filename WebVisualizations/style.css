@@ -1,40 +1,65 @@
 /* Giving the body the specified background color */
 body{
-    background-color: #EDEDED; 
+    background-color: lightgray; 
 }
-/* Giving our navbar a background color, adding font sizes */
-/*.navbar navbar-default{
-
-}
-
-.navbar-header{}
-
-.
-
-
-}
-.navbar{
-    max-height: 50px; 
-	background-color: #cacccb; 
-    font-size: 15px; 
-}
-
-.navigation .navbar-brand {
-    color: white;
+/* Giving the styling to "Lattitude" */
+#logo{
+    background: #4aaaa5 ;
+    font-size: 26px;
     font-weight: bold;
-    font-size: 25px; 
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #38ab87;
-    margin-left: 50px;
-}
-.dropdown-item{
-    color: #30615c; 
-}
-.dropdown-menu .dropdown-item:hover, .dropdown-menu .dropdown-item:active{
-    background-color:#adc7c4; 
-}
+    color:#fff;
+    margin-left: 75px;
+    padding-right: 10px;
+    padding-left: 10px;
+    }
+/* Styling the nav bar items like margin and padding  */    
+#navbarSupportedContent{
+    margin-left: 950px;
+    }    
 
-.nav-link:hover{
-    background-color:#adc7c4;
+.nav-item{
+    padding-right: 25px;
+}    
+/* Styling the image features */
+#description-image{
+    float:left;
+    width:250px;
+    height:250px;
+    margin-right:20px;
+    }
+/* Styling the Div Container for all html files*/    
+.container{
+    background-color: #fff;
+    margin-top: 50px;
+   
+}  
+/* Styling the header in main.html*/
+.description-header{
+    font-size: 30px;
+    font-weight: bold;
+    color:#4aaaa5;
+    padding-top: 30px;
+    } 
+/* Styling the images of all visualizations*/    
+.imageNav-photo{
+    width:500px;
+    height:500px;
 }
-*/
+#images{
+    padding-top: 20px;
+    padding-right: 20px;
+    
+}
+/* Styling the comaprison header of comparison.html*/
+.comparison-header{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color:#4aaaa5;
+}
+/* Styling the paragrap text to get below the images for all visualizations */
+#img-with-text {
+    text-align: justify;
+    width:400px;
+    height:400px;
+}
