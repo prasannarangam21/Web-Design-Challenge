@@ -4,8 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <title>Web Visualizations</title>
+  <!--<link rel="stylesheet" href="../bootstrap.min.css" media="screen">-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../style.css" media="screen">
 </head>
 <body>
 <!-- Define the Navigation Bar -->
@@ -41,15 +42,15 @@
 </nav>
 <!-- Define the table -->
 <div class="container">
-   <section class="row">
-     <div>
-       <div class="description-content">
+   <article class="description-content row">
+     <div class="col-x-12">
+      
          <h1 class="description-header">Data</h1>
-         <hr>
-         <p>The following table includes all of the data used for plotting during this project.</p>
-         <br>
+         <hr class="description-hr">
+         <p class="descrciption-text">The following table includes all of the data used for plotting during this project.</p>
+         
          <div class="table-responsive">
-           <table class="dataframe table table-striped">
+           <table class="table table-striped table-hover">
              <thead>
                <tr style="text-align: left;">
                  <th></th>
@@ -8533,9 +8534,9 @@
            </table>
          </div>
 
-       </div>
+      
     </div>
-   </section>
+  </article>
 </div>
  <!-- End of table and the div container -->
 <!-- Footer -->

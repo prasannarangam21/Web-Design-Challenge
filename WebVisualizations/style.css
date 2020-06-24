@@ -14,7 +14,8 @@ body{
     }
 /* Styling the nav bar items like margin and padding  */    
 #navbarSupportedContent{
-    margin-left: 950px;
+    
+    
     }    
 
 .nav-item{
@@ -57,9 +58,15 @@ body{
     font-weight: bold;
     color:#4aaaa5;
 }
-/* Styling the paragrap text to get below the images for all visualizations */
+/* Styling the paragraph text to get below the images for all visualizations */
 #img-with-text {
     text-align: justify;
     width:400px;
     height:400px;
+}
+.description-content{
+    padding-top: 20px;
+}
+.description-text{
+    padding-bottom: 20px;
 }
