@@ -13,11 +13,7 @@ body{
     padding-left: 10px;
     }
 /* Styling the nav bar items like margin and padding  */    
-#navbarSupportedContent{
-    
-    
-    }    
-
+#navbarSupportedContent{}
 .nav-item{
     padding-right: 25px;
 }    
